@@ -2,7 +2,10 @@
 
 This is where I'm going to document the preparation work in advance to the FabAcademy 2025. 
 
-## Index
-[How this homepage was created](/homepage)
+I'm going to report on the following topics: 
 
++ [Setting up this homepage](/mysite/homepage)
 
++ Milling with the ShopBot using VCarve
+
++ Creating a PCB

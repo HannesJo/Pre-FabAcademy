@@ -54,5 +54,6 @@ Go to Settings - Pages and select the branch and save.
 After a refresh you should see the link to your webpage.
 
 ## Finetuning the homepage using packages
-
+As the material theme doesn't work for me, I decided to use the standard theme *mkdocs* instead.
+Then I changed the theme to dark. 
 

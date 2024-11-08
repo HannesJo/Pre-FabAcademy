@@ -1,5 +1,6 @@
 site_name: My Pre-FabAcademy Hompeage
 site_url: https://hannesjo.github.io/Pre-FabAcademy/
 theme:
-  name: readthedocs
+  name: mkdocs
   locale: en
+  color_mode: dark
