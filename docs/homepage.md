@@ -41,4 +41,18 @@ mkdocs serve
 to create the actual html webpage and preview it in the browser by clicking on the link in the terminal. 
 
 ## Transfering the webpage to GitHub
-Now it's time to upload the files to GitHub. Use the commit button in the **Source Control** tab and remember to write a short message.  
+Now it's time to upload the files to GitHub. Use the commit button in the **Source Control** tab and remember to write a short message. Then click on sync changes. If it's the first time syncing to GitHub you need to set the login and password. 
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
+## Creating the page on GitHub
+The files should be visible in the repository, now. 
+Go to Settings - Pages and select the branch and save. 
+![Pages Settings](/docs/images/github-pages.png)
+After a refresh you should see the link to your webpage.
+
+## Finetuning the homepage using packages
+
+
