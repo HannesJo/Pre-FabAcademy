@@ -34,4 +34,11 @@ site_url: https://hannesjo.github.io/Pre-FabAcademy/
 theme:
   name: material
 ```
+Use the command 
+```
+mkdocs serve
+```
+to create the actual html webpage and preview it in the browser by clicking on the link in the terminal. 
 
+## Transfering the webpage to GitHub
+Now it's time to upload the files to GitHub. Use the commit button in the **Source Control** tab and remember to write a short message.  
