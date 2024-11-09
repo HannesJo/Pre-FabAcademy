@@ -1,6 +1,38 @@
 site_name: My Pre-FabAcademy Hompeage
 site_url: https://hannesjo.github.io/Pre-FabAcademy/
 theme:
-  name: mkdocs
+  name: materials
   locale: en
-  color_mode: dark
+
+repo_url: https://github.com/HannesJo/Pre-FabAcademy
+repo_name: "Site Repo"
+theme:
+  name: material
+  logo: images/Logo/FabLabLogo.svg
+  favicon: images/Logo/FabLabLogo.svg
+  icon:
+    repo: simple/github
+  features:
+    - content.code.annotate
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+  palette:
+    - media: "(prefers-color-scheme: light)"  # Toggle for light mode
+      scheme: default
+      toggle: 
+        icon: material/lightbulb
+        name: Switch to dark mode
+      primary: black
+      accent: red
+    - media: "(prefers-color-scheme: dark)"   # Toggle for dark mode
+      scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+      primary: black 
+      accent: red 
+  font:
+    text: Roboto 
+    code: Roboto Mono  
